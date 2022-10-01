@@ -1,0 +1,34 @@
+.navbar {
+    
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 30px 100px;
+gap: 10px;
+
+position: fixed;
+width: 1441px;
+height: 76px;
+left: 0px;
+top: 0px;
+z-index: 4;
+
+
+background: var(--color-grey-1);}
+
+
+
+.navbar h4 {
+    
+    height: 14.76px;
+
+    color: var(--color-white-fixed);
+
+}
+
+.buttons-nav {
+    display: flex;
+    gap: 30px;
+    margin-right: 70px;
+}

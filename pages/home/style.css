@@ -1,0 +1,253 @@
+.sections {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    align-items: flex-start;
+    align-content: space-between;
+    gap: 16px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.pessoa {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.biopessoa h4 {
+    width: 114px;
+
+    font-family: var(--font-family-1);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+
+    color: var(--color-grey-1)
+}
+
+.biopessoa h3 {
+
+    font-family: var(--font-family-1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--color-grey-2);
+
+}
+
+.sugestoes ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textArea {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.textArea1 {
+    margin-top: 10px;
+    display: flex;
+
+    align-items: flex-start;
+    padding: 16px 20px;
+    width: 713px;
+    height: 52px;
+
+    /* Grey Scale/white-fixed */
+
+    background: #FFFFFF;
+    /* Grey Scale/grey4 */
+
+    border: 2px solid #DEE2E6;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Grey Scale/grey3 */
+
+    color: #868E96;
+
+
+}
+
+.textArea2 {
+    display: flex;
+
+    align-items: flex-start;
+    padding: 28px 21px 29px;
+    gap: 10px;
+
+
+    /* Grey Scale/white-fixed */
+
+    background: #FFFFFF;
+    /* Grey Scale/grey4 */
+
+    border: 2px solid #DEE2E6;
+    border-radius: 4px;
+
+    height: 130px;
+    width: 713px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Grey Scale/grey2 */
+
+    color: var(--color-grey-2);
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sticky {
+
+
+    position: fixed;
+    right: 1px;
+  
+   
+
+
+}
+
+.sugestoes {
+    align-self: center;
+}
+
+.btnPostar {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: var(--color-white-fixed);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+    gap: 10px;
+
+    width: 69px;
+    height: 38px;
+
+    /* Brand/brand1 */
+
+    background: var(--blue-1);
+    /* Brand/brand1 */
+
+    border: 2px var(--blue-1);
+    border-radius: 4px;
+    margin-left: 600px;
+
+}
+
+.postagens {
+
+    width: 60%;
+
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.nomeFuncao {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.noticia {
+
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.buttonsN {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.posts {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: var(--color-grey-1)
+}
+
+
+.nomeFuncao h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--color-grey-1);
+
+}
+
+.nomeFuncao h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--color-grey-2)
+
+}
+
+.noticia h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color var( --color-grey-1);
+}
+
+.noticia h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--color-grey-2)
+}
+
+li {
+    margin-bottom: 50px;
+}

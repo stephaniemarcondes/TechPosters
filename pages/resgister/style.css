@@ -1,0 +1,24 @@
+.form2 {
+    padding: 10px;
+    height: 800px;}
+
+    .container2 {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 40px 24px;
+        gap: 50px;
+    
+        position: absolute;
+        width: 461px;
+        height: 400px;
+        left: 464px;
+        top: 100px;
+    
+    
+        background: var(--color-white-fixed);
+        box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+    

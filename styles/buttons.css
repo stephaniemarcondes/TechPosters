@@ -1,0 +1,315 @@
+.button-primary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+    gap: 10px;
+    width: 65px;
+    height: 38px;
+    background: var(--blue-1);
+    border: 2px solid var(--blue-1);
+    border-radius: 4px;
+    color: var(--color-white-fixed);
+    width: 30px;
+    height: 17px;
+    font-family: var(--font-family-1);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    order: 1;
+    cursor: pointer;
+}
+
+.button-primary:hover {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+    gap: 10px;
+    width: 54px;
+    height: 38px;
+    background: var(--blue-2);
+    border: 2px var(--blue-2);
+    border-radius: 4px;
+    order: 1;
+    width: 30px;
+    height: 17px;
+    font-family: var(--font-family-1);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--color-white-fixed);
+    cursor: pointer;
+}
+
+.buttonGrey {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 70px;
+    height: 32px;
+    background: var(--color-grey-2);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--color-white-fixed);
+    cursor: pointer;
+    border: 2px solid var(--color-grey-0);
+}
+
+
+.buttonGrey:hover {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 10px;
+    width: 70px;
+    height: 32px;
+    background: var(--color-grey-0);
+    border: 2px solid var(--color-grey-0);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.loginBtn {
+
+    align-items: center;
+    padding: 0px 12px;
+    gap: 10px;
+    width: 413px;
+    height: 38px;
+    background: var(--blue-1);
+    border: 2px var(--blue-1);
+    border-radius: 4px;
+    font-family: var(--font-family-1);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--color-white-fixed) cursor: pointer;
+
+}
+
+.cadastroa {
+    width: 413px;
+    height: 16px;
+    font-family: var(--font-family-1);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+
+.pagRegistroBtn {
+    padding: 30px 15px;
+    gap: 30px;
+
+    width: 413px;
+    height: 18px;
+
+    background: var(--color-white-fixed);
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.pagRegistroBtnp {
+
+    padding: 20px 12px;
+    width: 170px;
+    height: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    color: var(--color-grey-1);
+    align-self: center;
+    cursor: pointer;
+
+}
+
+.btnWhiteFixed {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+    gap: 10px;
+    width: 54px;
+    height: 38px;
+    background: var(--color-white-fixed);
+    border: 2px solid var(--color-white-fixed);
+    border-radius: 4px;
+    width: 30px;
+    height: 17px;
+
+    font-family: var(--font-family-1);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--color-grey-1);
+    margin: 5px 5px;
+    cursor: pointer;
+
+}
+
+.btnCadastro {
+    width: 50px;
+    height: 20px;
+    text-align: center;
+
+    font-family: var(--font-family-1);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: var(--color-grey-1) display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1E1E1E;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btnseguindo {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+    gap: 10px;
+
+    background: var(--color-white-fixed);
+
+    border: 1px solid var(--color-grey-1);
+    border-radius: 2px;
+
+    font-family: var(--font-family-1);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+    color: var(--color-grey-1)
+}
+
+.btnseguindo:hover {
+
+    box-sizing: border-box;
+
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+    gap: 10px;
+
+    background: var(--color-white-fixed);
+
+    border: 1px solid var(--blue-1);
+    border-radius: 2px;
+
+    font-family: var(--font-family-1);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+    color: var(--blue-1)
+}
+
+.btnseguindo:active {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+    gap: 10px;
+    background: var(--blue-1);
+    border: 1px solid var(--blue-1);
+    border-radius: 2px;
+    font-family: var(--font-family-1);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--color-white-fixed);
+    cursor: pointer;
+}
+
+.abrirPost {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+    gap: 10px;
+    width: 92px;
+    height: 38px;
+    background: var(--color-grey-1);
+    border: 2px solid var(--color-grey-1);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--color-white-fixed);
+    cursor: pointer;
+}
+
+.btnModal {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 12px;
+    gap: 10px;
+
+    position: absolute;
+    width: 76px;
+    height: 38px;
+    left: 250px;
+    top: 90px;
+
+    background: var(--color-white-fixed);
+    border: 2px solid var(--color-white-fixed);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--color-grey-1)
+}

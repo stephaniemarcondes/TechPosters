@@ -1,0 +1,36 @@
+.input-default {
+
+padding: 16px 20px;
+
+width: 297px;
+height: 52px;
+
+background: var(--color-white-fixed);
+
+border: 2px solid var(--color-grey-4);
+border-radius: 4px;
+}
+
+.input-default:focus {
+
+
+    padding: 16px 20px;
+   
+    width: 297px;
+    height: 52px;
+   
+    background: var(--color-white-fixed);
+    border: 2px solid var(--blue-1);
+    border-radius: 4px;
+
+}
+
+.input-default:valid {   
+padding: 16px 20px;
+width: 297px;
+height: 52px;
+background:var(--color-white-fixed);
+border: 2px solid var(--color-grey-4)
+border-radius: 4px;
+}
+
